@@ -17,7 +17,7 @@
  습득하고 이해하는데 오랜 시간이 걸림
  2) 제작자의 의도된 제약 사항
  자유롭고 유연하게 개발하는 데 한계
- 
+
 ---
 ### 2. Maven
 자바 프로젝트를 자동으로 빌드해주는 빌드 툴
@@ -27,7 +27,7 @@
 ```java
 public class Order{
  private Customer customer;
- 
+
  public Order() {
 	 coustomer = new Customer(); //의존?
 	 //tightly coupled
@@ -106,7 +106,7 @@ public class IoCContainer{
 
 *자원 ex) 문서, 그림, 데이터 , etc*
 *상태ex) 요청되는 시점에 따른  자원의 상태 (정보)
-JSON 혹은 XML를 통해 데이터를 주고 받는 것이 일반적* 
+JSON 혹은 XML를 통해 데이터를 주고 받는 것이 일반적*
 
 1) REST 구성
 * 자원(RESOURCE) - URI
@@ -115,3 +115,39 @@ JSON 혹은 XML를 통해 데이터를 주고 받는 것이 일반적*
 
 **API** : 데이터와 기능의 집찹을 제공하여 컴퓨터 프로그램간 상호작용을 촉진하면, 서로 정보를 교환 가능 하도록 하는 것
 **REST API** : REST기반으로 서비스 API를 구현한것`
+
+19/01/11
+
+### 8. XML(Extensible Markup Language)
+* 확장 가능한 언어
+* 전자적으로 데이터를 교환하기 위한 표준
+
+특징
+* 기존 웹의 인터넷 기반 프로토콜, 메커니즘과 함께 이용 가능
+* 언어에 대해 독립적이고 여러 Application을 사용하도록 지원
+* 사용자 정의 태그를 사용한다. 때문에 정보 교환이 용이하다.
+* 문서의 재사용이 가능하다.
+* 웹에서 정보 교환이 가능하다.
+* 자료의 표현과 내용이 분리되어 있어 정확한 검색이 가능하고 교환에 용이
+
+### 9. YAML(Yet Another Markup Language)
+* 데이터를 사람이 쉽게 읽을 수 있수 있는 형태로 표현하는데 사용되는 데이터 직렬화 양식
+
+* 데이터 직렬화(Data Serialization)란 구조화된 데이터를 특정 format으로 변환하는 개념
+
+
+### 10. H2
+* 자바로 작성된 인메모리 관계형 데이터베이스
+* 초경량 DB
+* 인메모리 DB이기 때문에 속도가 빠르지만, 컴퓨터가 꺼지면 내용이 날아간다.(연속성 x)
+### 11. JUnit
+* 자바용 단위 테스트 도구
+assertXXX를 메서드를 이용한 테스트
+
+**Annotation**
+* @RanWith
+* @ContextConfiguration
+* @Test
+* @Ignore
+* @Before
+* @After

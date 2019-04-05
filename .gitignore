@@ -109,6 +109,7 @@ fabric.properties
 hs_err_pid*
 
 # yml oauth2 setting
-*.yml
+application.yml
+application.properties
 
 # End of https://www.gitignore.io/api/web,java,intellij
